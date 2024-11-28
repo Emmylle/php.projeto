@@ -1,0 +1,186 @@
+*{
+   border: 0; 
+   padding: 0;
+   margin: 0;
+}
+#header{
+    background-color: rgb(255, 166, 0);
+    z-index: 1;
+}
+body{
+    background-color: #ec9345;
+}
+html{
+    scroll-behavior: smooth;
+}
+#h1-header{
+    color: hwb(0 7% 18%);
+    font-size: arial;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.h3-header{
+    color: hsl(0, 82%, 46%);
+    font-size: arial;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.link-cabeçalho{
+    text-decoration: none;
+    color: hsl(0, 98%, 48%);
+    word-spacing: 20px;
+    font-size: 25px;
+    font-family: arial;
+}
+#navegação{
+    text-align: right;
+    padding-right: 20px;
+}
+.section-1{
+    color: #fff;
+    background-color:rgb(255, 166, 0);
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 180px;
+    border-radius: 90px;
+}
+.h2-section1{
+    font-size: 25px;
+    font-family: arial;
+    padding-top: 27px;
+
+}
+.p1{
+    padding-top: 25;
+    font-family: arial;
+    font-size: 27px;
+}
+#section-grid{
+    padding: 10px;
+    height: 10%;
+    padding-bottom: 20px;
+}
+.section-2{
+    background-color:rgb(255, 166, 0) ;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    text-align: center;
+}
+.grid{
+    background-color: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap:10px;
+    max-width: 300%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.sub-grid{
+    font-family: verdana,arial;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding-top: 2px;
+    margin: 2px;
+     
+    
+}
+.img-pizza{
+    max-width: 100%;
+}
+.h2-cardapio{
+    font-family: arial;
+    font-size: 28px;
+    color:red;
+}
+.h2-sub-grid{
+    font-family: arial;
+    font-size: 30px;
+    color:red;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.p-preços{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.botao-acao{
+    width: 70%;
+    background-color: red;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius:12px;
+}
+.link-cabeçalho{
+    font-weight: bold;
+    font-family: arial;
+}
+.link-cabeçalho:hover{
+    color: yellow;
+    transition: all ease-in-out 3ms;
+}
+#pizza-queijo{
+    height: 60%;
+    padding-bottom: 10px;
+   
+}
+#rodapé{
+    background-color: red;
+}
+#h2-rodapé{
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: arial;
+}
+.p1-footer{
+    color: #fff;
+    font-family: arial;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.img-suco{
+    max-width: 80%;
+    height: 20%;
+    padding-bottom: 20px;
+}
+.img-refrigerante{
+    max-width: 90;
+    height: 20%;
+    padding-bottom: 20px;
+}
+.img-Agua{
+    max-width: 80%;
+    height: 20%;
+    padding-bottom: 20px;
+}
+.img-chocolate{
+    max-width: 80%;
+    height: 20%;
+    padding-bottom: 20px;
+}
+.img-cupcake{
+    max-width: 80%;
+    height: 20%;
+    padding-bottom: 20px;
+}
+.img-alfajor{
+    max-width: 80%;
+    height: 20%;
+    padding-bottom: 20px;
+}
